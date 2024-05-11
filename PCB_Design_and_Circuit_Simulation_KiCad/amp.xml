@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\siddh\Desktop\IITB_23-24_spring\EE 344 Electronic Design Lab\Project-p17\circuit_and_pcb\amp\amp.kicad_sch</source>
+    <date>19-03-2024 03:52:04 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78660372-dcca-4580-8282-c4d36001592d</tstamps>
+    </comp>
+    <comp ref="Opamp_IC1">
+      <value>LF411CP</value>
+      <footprint>SamacSys_Parts:DIP794W53P254L959H508Q8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lf411.pdf</datasheet>
+      <fields>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LF411CP</field>
+        <field name="Mouser Part Number">595-LF411CP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF411CP?qs=JS6RUWRH9DWau2Mor%2F%252BoLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LF411CP" description="OP Amp Single GP 18V 8-Pin PDIP Texas Instruments LF411CP Operational Amplifier, 3MHz, 8-Pin PDIP"/>
+      <property name="Height" value="5.08"/>
+      <property name="Mouser Part Number" value="595-LF411CP"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF411CP?qs=JS6RUWRH9DWau2Mor%2F%252BoLg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LF411CP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="OP Amp Single GP 18V 8-Pin PDIP Texas Instruments LF411CP Operational Amplifier, 3MHz, 8-Pin PDIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8abdd552-798f-4a68-aa04-a1c81a591b7c</tstamps>
+    </comp>
+    <comp ref="Power_input1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>027c1799-ab73-4066-843a-305e21e54469</tstamps>
+    </comp>
+    <comp ref="Qb1">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/2N5550-D.PDF</datasheet>
+      <fields>
+        <field name="Height">5.33</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">2N5551</field>
+        <field name="Mouser Part Number">863-2N5551</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2N5551" description="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <property name="Height" value="5.33"/>
+      <property name="Mouser Part Number" value="863-2N5551"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="2N5551"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75a7ba69-c401-4a25-9344-ee9c3bc1c4a1</tstamps>
+    </comp>
+    <comp ref="QCE1">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ff4a471-93e5-45d1-90ec-37c7a229901d</tstamps>
+    </comp>
+    <comp ref="QCS1">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/2N5550-D.PDF</datasheet>
+      <fields>
+        <field name="Height">5.33</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">2N5551</field>
+        <field name="Mouser Part Number">863-2N5551</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2N5551" description="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <property name="Height" value="5.33"/>
+      <property name="Mouser Part Number" value="863-2N5551"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="2N5551"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d1b987-7d3d-43cc-8bbb-71c905df3a38</tstamps>
+    </comp>
+    <comp ref="QCS2">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/2N5550-D.PDF</datasheet>
+      <fields>
+        <field name="Height">5.33</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">2N5551</field>
+        <field name="Mouser Part Number">863-2N5551</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2N5551" description="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <property name="Height" value="5.33"/>
+      <property name="Mouser Part Number" value="863-2N5551"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="2N5551"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Bipolar Transistors - BJT 600mA 180V NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0d7bd36-4427-4981-9423-717d2910bbfb</tstamps>
+    </comp>
+    <comp ref="QO1">
+      <value>MJE15034G</value>
+      <footprint>SamacSys_Parts:TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MJE15034G</field>
+        <field name="Mouser Part Number">863-MJE15034G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15034G" description=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="863-MJE15034G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MJE15034G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39584e6b-4e66-417f-83cc-e527907bf9f2</tstamps>
+    </comp>
+    <comp ref="QO2">
+      <value>MJE15035G</value>
+      <footprint>SamacSys_Parts:TO254P483X1010X2035-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</datasheet>
+      <fields>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MJE15035G</field>
+        <field name="Mouser Part Number">863-MJE15035G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MJE15035G" description=""/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="863-MJE15035G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="MJE15035G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7a5ff07-8138-4502-bbd6-b63c0f6d58b6</tstamps>
+    </comp>
+    <comp ref="QO3">
+      <value>NJW3281G</value>
+      <footprint>SamacSys_Parts:TO545P500X1560X2380-3P</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</datasheet>
+      <fields>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NJW3281G</field>
+        <field name="Mouser Part Number">863-NJW3281G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NJW3281G?qs=WOJDpfhxrCaDJlemeW6i8g%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="NJW3281G" description="Complementary NPN Silicon Power Bipolar Transistors"/>
+      <property name="Height" value="5"/>
+      <property name="Mouser Part Number" value="863-NJW3281G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/NJW3281G?qs=WOJDpfhxrCaDJlemeW6i8g%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="NJW3281G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Complementary NPN Silicon Power Bipolar Transistors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f7a02a2-ae9a-4b8c-a5db-6885b1be8452</tstamps>
+    </comp>
+    <comp ref="QO4">
+      <value>NJW1302G</value>
+      <footprint>SamacSys_Parts:TO545P500X1560X2380-3P</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</datasheet>
+      <fields>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NJW1302G</field>
+        <field name="Mouser Part Number">863-NJW1302G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NJW1302G?qs=WOJDpfhxrCZWcBqHAA%2FzUg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="NJW1302G" description="ON Semi NJW1302G PNP Transistor, 15 A, 250 V, 3-Pin TO-3P"/>
+      <property name="Height" value="5"/>
+      <property name="Mouser Part Number" value="863-NJW1302G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/onsemi/NJW1302G?qs=WOJDpfhxrCZWcBqHAA%2FzUg%3D%3D"/>
+      <property name="Manufacturer_Name" value="onsemi"/>
+      <property name="Manufacturer_Part_Number" value="NJW1302G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="ON Semi NJW1302G PNP Transistor, 15 A, 250 V, 3-Pin TO-3P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a18ca4e-660c-4d0d-834e-6a5ec8a7f299</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cfde51e-4ab7-4dd3-b9c1-f3adbb234119</tstamps>
+    </comp>
+    <comp ref="RA1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2245c16b-57a4-408c-b2da-4e37b78737e7</tstamps>
+    </comp>
+    <comp ref="RA2">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7f247af-292b-4ade-ba29-c1f9464b2324</tstamps>
+    </comp>
+    <comp ref="RA3">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d669c0f-a4ca-4a8f-9167-74927039d4ff</tstamps>
+    </comp>
+    <comp ref="RB1">
+      <value>5.6k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4083340-7a5c-441f-91e2-6774f8c64b89</tstamps>
+    </comp>
+    <comp ref="RB_pot1">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d88958c4-e3cf-424f-9826-9aa3f857040e</tstamps>
+    </comp>
+    <comp ref="RCS1">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e039ac72-d7e5-46c0-8e9a-6daabdbc736f</tstamps>
+    </comp>
+    <comp ref="RCS2">
+      <value>12k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1e02624-99fc-45ce-bca4-ff294334d574</tstamps>
+    </comp>
+    <comp ref="RE1">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2a7afb4-9606-43c9-9d52-22c57ba11ee4</tstamps>
+    </comp>
+    <comp ref="RF1">
+      <value>82k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cf7fd88-977c-417f-a980-c6ca48800982</tstamps>
+    </comp>
+    <comp ref="RO1">
+      <value>3.3k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e806d97b-7ac9-4d7d-9a67-27b006a92902</tstamps>
+    </comp>
+    <comp ref="RO2">
+      <value>820</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2323134-f5dc-4de1-8135-10864e3e8995</tstamps>
+    </comp>
+    <comp ref="ROE1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afbe560d-d177-4ef4-a3c8-ccc0ab513e4f</tstamps>
+    </comp>
+    <comp ref="ROE2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4060b58-27b6-4172-b59f-1ee2b218aa1d</tstamps>
+    </comp>
+    <comp ref="ROE3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0647850f-7e05-47e9-813e-666828df10de</tstamps>
+    </comp>
+    <comp ref="ROE4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e55c73fe-7c2a-4285-a914-dca050b90d41</tstamps>
+    </comp>
+    <comp ref="RO_pot2">
+      <value>2K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0e330e0-f2ea-4307-942a-ca7da23ce6b7</tstamps>
+    </comp>
+    <comp ref="Vin1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa4dc1d-08f3-4b3f-9931-ece7751d11e5</tstamps>
+    </comp>
+    <comp ref="Vout1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amp.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c89e9aba-205c-4b1b-a04a-e7c15e8e9b11</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="2N5551">
+      <description>Bipolar Transistors - BJT 600mA 180V NPN</description>
+      <docs>http://www.onsemi.com/pub/Collateral/2N5550-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N5551</field>
+        <field name="Footprint">TO-92_(TO-226)</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/2N5550-D.PDF</field>
+        <field name="Height">5.33</field>
+        <field name="Mouser Part Number">863-2N5551</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/2N5551?qs=vLkC5FC1VN9fmjXMZdtXVg%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">2N5551</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LF411CP">
+      <description>OP Amp Single GP 18V 8-Pin PDIP Texas Instruments LF411CP Operational Amplifier, 3MHz, 8-Pin PDIP</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lf411.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LF411CP</field>
+        <field name="Footprint">DIP794W53P254L959H508Q8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lf411.pdf</field>
+        <field name="Height">5.08</field>
+        <field name="Mouser Part Number">595-LF411CP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF411CP?qs=JS6RUWRH9DWau2Mor%2F%252BoLg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LF411CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL1" type="passive"/>
+        <pin num="2" name="IN-" type="passive"/>
+        <pin num="3" name="IN+" type="passive"/>
+        <pin num="4" name="VCC-" type="passive"/>
+        <pin num="5" name="BAL2" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+        <pin num="7" name="VCC+" type="passive"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MJE15034G">
+      <docs>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MJE15034G</field>
+        <field name="Footprint">TO254P483X1010X2035-3P</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</field>
+        <field name="Height">4.83</field>
+        <field name="Mouser Part Number">863-MJE15034G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MJE15034G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MJE15035G">
+      <docs>http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MJE15035G</field>
+        <field name="Footprint">TO254P483X1010X2035-3P</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF</field>
+        <field name="Height">4.83</field>
+        <field name="Mouser Part Number">863-MJE15035G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">MJE15035G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="NJW1302G">
+      <description>ON Semi NJW1302G PNP Transistor, 15 A, 250 V, 3-Pin TO-3P</description>
+      <docs>http://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NJW1302G</field>
+        <field name="Footprint">TO545P500X1560X2380-3P</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</field>
+        <field name="Height">5</field>
+        <field name="Mouser Part Number">863-NJW1302G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NJW1302G?qs=WOJDpfhxrCZWcBqHAA%2FzUg%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NJW1302G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="NJW3281G">
+      <description>Complementary NPN Silicon Power Bipolar Transistors</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NJW3281G</field>
+        <field name="Footprint">TO545P500X1560X2380-3P</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NJW3281-D.PDF</field>
+        <field name="Height">5</field>
+        <field name="Mouser Part Number">863-NJW3281G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/onsemi/NJW3281G?qs=WOJDpfhxrCaDJlemeW6i8g%3D%3D</field>
+        <field name="Manufacturer_Name">onsemi</field>
+        <field name="Manufacturer_Part_Number">NJW3281G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/siddh/Documents/KiCad/7.0/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+15V">
+      <node ref="Opamp_IC1" pin="7" pinfunction="VCC+" pintype="passive"/>
+      <node ref="Power_input1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="QO1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="QO3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RE1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="-15V">
+      <node ref="Opamp_IC1" pin="4" pinfunction="VCC-" pintype="passive"/>
+      <node ref="Power_input1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="QCS2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="QO2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="QO4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="RCS1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Vout">
+      <node ref="RA1" pin="1" pintype="passive"/>
+      <node ref="ROE1" pin="1" pintype="passive"/>
+      <node ref="ROE2" pin="2" pintype="passive"/>
+      <node ref="ROE3" pin="1" pintype="passive"/>
+      <node ref="ROE4" pin="2" pintype="passive"/>
+      <node ref="Vout1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Power_input1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RA3" pin="2" pintype="passive"/>
+      <node ref="RCS2" pin="2" pintype="passive"/>
+      <node ref="Vin1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Vout1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(Opamp_IC1-IN+)">
+      <node ref="Opamp_IC1" pin="3" pinfunction="IN+" pintype="passive"/>
+      <node ref="RA1" pin="2" pintype="passive"/>
+      <node ref="RA2" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(Opamp_IC1-IN-)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Opamp_IC1" pin="2" pinfunction="IN-" pintype="passive"/>
+      <node ref="RA3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(Opamp_IC1-OUT)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="Opamp_IC1" pin="6" pinfunction="OUT" pintype="passive"/>
+      <node ref="RB1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(QCE1-B)">
+      <node ref="QCE1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="RB_pot1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RF1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(QCE1-C)">
+      <node ref="QCE1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="RE1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(QCE1-E)">
+      <node ref="QCE1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="QO1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="Qb1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="RF1" pin="1" pintype="passive"/>
+      <node ref="RO1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(QCS1-B)">
+      <node ref="QCS1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="QCS2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="RCS2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(QCS1-C)">
+      <node ref="QCS1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="QO2" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="Qb1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="RO_pot2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(QCS1-E)">
+      <node ref="QCS1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="QCS2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="RCS1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(QO1-E)">
+      <node ref="QO1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="QO3" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="ROE1" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(QO2-E)">
+      <node ref="QO2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="QO4" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="ROE2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(QO3-E)">
+      <node ref="QO3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="ROE3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(QO4-E)">
+      <node ref="QO4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="ROE4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Qb1-B)">
+      <node ref="Qb1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="RO1" pin="1" pintype="passive"/>
+      <node ref="RO2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(RB1-Pad1)">
+      <node ref="RB1" pin="1" pintype="passive"/>
+      <node ref="RB_pot1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(RO2-Pad1)">
+      <node ref="RO2" pin="1" pintype="passive"/>
+      <node ref="RO_pot2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Vin1-Pin_1)">
+      <node ref="RA2" pin="2" pintype="passive"/>
+      <node ref="Vin1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(Opamp_IC1-BAL1-Pad1)">
+      <node ref="Opamp_IC1" pin="1" pinfunction="BAL1" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(Opamp_IC1-BAL2-Pad5)">
+      <node ref="Opamp_IC1" pin="5" pinfunction="BAL2" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(Opamp_IC1-NC-Pad8)">
+      <node ref="Opamp_IC1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(RB_pot1-Pad3)">
+      <node ref="RB_pot1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(RO_pot2-Pad3)">
+      <node ref="RO_pot2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
