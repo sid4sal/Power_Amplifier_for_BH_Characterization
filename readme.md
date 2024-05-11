@@ -22,8 +22,6 @@ The user manual and all the required files can be found at this repo.
   
 - *Frequency_Response_Observed_vs_Simulated*: Compares the observed and simulated frequency responses in KiCad and Proteus.
   
-- *Milestones*: Contains subfolders for each milestone of the project.
-  
 - *PCB_Design_and_Circuit_Simulation_KiCad*: Placeholder for the KiCad files related to PCB design and circuit simulation.
   
 - *Simulation_Proteus*: Placeholder for the Proteus simulation files.
@@ -31,8 +29,6 @@ The user manual and all the required files can be found at this repo.
 ## Additional Documents
 
 - *Circuit_Diagram.png*: Circuit diagram of the power amplifier.
-  
-- *Gantt Chart - Tasks Timeline and Distribution.png*: Gantt chart depicting the project timeline and task distribution.
   
 - *PCB.jpeg* & *PCB2.jpeg*: Images of the PCB design.
   
